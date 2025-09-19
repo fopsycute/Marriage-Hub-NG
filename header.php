@@ -46,10 +46,10 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="index.php" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Learner</h1>
+        <h1 class="sitename">Marriage Hub</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -59,20 +59,17 @@
           <li><a href="events.php">Events</a></li>
           <li><a href="questions-answers.php">Question and answer</a></li>
           <li><a href="blog.php">Blog</a></li>
-
-          <!---
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="signin.php">Login</a></li>
+       
+          <li class="dropdown"><a href="#"><span>Register</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="course-details.html">Course Details</a></li>
-              <li><a href="instructor-profile.html">Instructor Profile</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
+              <li><a href="register.php">Register as a buyer</a></li>
+              <li><a href="register-trainer.php">Register as a Trainer</a></li>
+              <li><a href="register-vendor-first.php">Register as a Vendor</a></li>
+              <li><a href="register-counsellor.php">Register as as Therapist</a></li>
             </ul>
           </li>
-
+<!----
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -97,7 +94,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="enroll.html">Enroll Now</a>
+      
 
     </div>
   </header>

@@ -74,7 +74,7 @@
         <h4>Notifications</h4>
       </a>
  -->
-      <a href="settings.html" class="dashboard-item text-center">
+      <a href="settings.php" class="dashboard-item text-center">
         <div class="dashboard-icon">
           <i class="bi bi-gear"></i>
         </div>
