@@ -159,3 +159,33 @@
   });
 
 })();
+
+
+// Handle opening chats
+  document.querySelectorAll('.chat-item').forEach(function(el){
+    el.addEventListener('click', function(){
+      let user = this.dataset.user;
+      document.getElementById('chatHeader').innerText = "Chat with " + user;
+      document.getElementById('chatMessages').innerHTML = `
+        <div class="text-muted text-center">Now chatting with ${user}</div>
+      `;
+      document.getElementById('chatInput').disabled = false;
+      document.getElementById('sendBtn').disabled = false;
+    });
+  });
+
+  // Send message
+  document.getElementById('sendBtn').addEventListener('click', function(){
+    let input = document.getElementById('chatInput');
+    let msg = input.value.trim();
+    if(msg === '') return;
+
+    let msgBox = document.createElement('div');
+    msgBox.className = "text-end mb-2";
+    msgBox.innerHTML = `<span class="badge bg-primary p-2">${msg}</span>`;
+    document.getElementById('chatMessages').appendChild(msgBox);
+
+    input.value = "";
+    let chatBox = document.getElementById('chatMessages');
+    chatBox.scrollTop = chatBox.scrollHeight;
+  });

@@ -75,9 +75,21 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- jQuery (required by DataTables) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- DataTables JS -->
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+  $(document).ready(function () {
+    $('#allTable').DataTable();
+  });
+</script>
+
 
 </body>
 
