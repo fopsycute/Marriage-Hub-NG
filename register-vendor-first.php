@@ -241,7 +241,7 @@
 
               <div class="text-center">
                 <a href="vendor-pricing.php" class="btn btn-enroll">
-                  <i class="bi bi-arrow-left-circle-fill me-2"></i> Back
+                  <i class="bi bi-arrow-left-circle-fill me-2"></i> Next
                 </a>
               </div>
 
