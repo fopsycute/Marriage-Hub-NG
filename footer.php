@@ -19,11 +19,11 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About us</a></li>
+            <li><a href="why-us.php">Why Us</a></li>
+            <li><a href="terms.php">Terms of service</a></li>
+            <li><a href="privacy.php">Privacy policy</a></li>
           </ul>
         </div>
 
