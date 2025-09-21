@@ -20,7 +20,7 @@
             <tr>
               <td>
                 <div class="d-flex align-items-center">
-                  <img src="assets/img/avatar.png" alt="Product" class="cart-product-img me-3">
+                  <img src="assets/img/black-family-enjoying (1).jpg" alt="Product" class="cart-product-img me-3">
                   <div>
                     <div class="fw-bold">Marriage Counseling Session</div>
                     <div class="text-muted small">1 hour, Online</div>
