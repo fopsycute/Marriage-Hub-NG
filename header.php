@@ -90,6 +90,15 @@
           ---->
           <li><a href="contact.html">Contact</a></li>
             <li><a href="dashboard.php">Dashboard</a></li>
+
+              <li>
+        <a href="cart.php" class="cart-link position-relative">
+          <i class="bi bi-cart" style="font-size: 1.5rem;"></i>
+          <span class="cart-badge position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            0
+          </span>
+        </a>
+      </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

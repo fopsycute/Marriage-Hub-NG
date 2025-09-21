@@ -121,6 +121,26 @@ h6 {
     color: #ffc107;
     margin: 0 2px;
 }
+/*  cart */
+/* Cart icon styling in header */
+.cart-link {
+  padding: 0 10px;
+  display: inline-block;
+  transition: color 0.2s;
+}
+.cart-link:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+.cart-badge {
+  font-size: 0.75rem;
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
 
 .php-email-form .sent-message {
   display: none;
